@@ -5,6 +5,7 @@
 }
 
 html, body {
+    background-image: url("https://get.wallhere.com/photo/1920x1080-px-lake-landscape-1071927.jpg");
     height: 100%;
 }
 
@@ -28,7 +29,9 @@ html, body {
 
 a {
     color: #a02117;
+    font-size: 30px;
     text-decoration: none;
+    height: 50px;
 }
 
 ul {
@@ -37,7 +40,8 @@ ul {
 
 a:hover {
     color: purple;
-    font-size: 20px;
+    font-size: 40px;
+    text-align: center;
 }
 
 input {
@@ -47,6 +51,29 @@ input {
 }
 
 .but {
+    width: 102px;
+    height: 30px;
+    margin-top: 7px;
+}
+
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.forma {
+    margin-left: 50px;
+}
+
+.forma form {
+    display: flex;
+    flex-direction: column;
+}
+
+.forma .but form input {
     width: 102px;
     height: 30px;
     margin-top: 7px;
